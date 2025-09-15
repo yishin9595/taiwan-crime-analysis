@@ -127,10 +127,10 @@
 ---
 
 ## SQL Scripts
-- [每年各縣市犯罪率](01_crime_rate_per_10k.sql)
-- [每年每月犯罪種類](02_crime_records_by_date.sql)
-- [2024 v.s 2020 犯罪率變化](03_crime_rate_pct_change_2024_vs_2020.sql)
-- [雙北犯罪率 v.s 房價分析](04_crime_rate_vs_price_by_district_tpe_ntpc.sql)
+- [每年各縣市犯罪率](sql_scripts/01_crime_rate_per_10k.sql)
+- [每年每月犯罪種類](sql_scripts/02_crime_records_by_date.sql)
+- [2024 v.s 2020 犯罪率變化](sql_scripts/03_crime_rate_pct_change_2024_vs_2020.sql)
+- [雙北犯罪率 v.s 房價分析](sql_scripts/04_crime_rate_vs_price_by_district_tpe_ntpc.sql)
 
 ---
 
