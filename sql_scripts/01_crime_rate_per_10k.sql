@@ -6,7 +6,7 @@ with crime as
     oc_region,
     type,
     count(type) as total_cases
-  from `lisa-project-383407.2025_profile.crime_statistics_2020_2024`
+  from `YOUR_PROJECT_ID.2025_profile.crime_statistics_2020_2024`
   group by 1,2,3,4
 ),
 
@@ -16,7 +16,7 @@ populations as (
     county,
     district,
     sum(populations) as populations
-  from `lisa-project-383407.2025_profile.taiwan_population_2020_2024`
+  from `YOUR_PROJECT_ID.2025_profile.taiwan_population_2020_2024`
   group by 1,2,3
 )
 
