@@ -4,5 +4,5 @@ select
   type,
   oc_county,
   oc_region
-from `lisa-project-383407.2025_profile.crime_statistics_2020_2024`
+from `project_name.2025_profile.crime_statistics_2020_2024`
 order by year,month
