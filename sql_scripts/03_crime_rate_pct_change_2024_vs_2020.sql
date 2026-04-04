@@ -3,7 +3,7 @@ with crime as (
     extract(year from oc_date) as year,
     oc_county,
     count(*) as total_cases
-  from `lisa-project-383407.2025_profile.crime_statistics_2020_2024`
+  from `project_name.2025_profile.crime_statistics_2020_2024`
   where extract(year from oc_date) in (2020, 2024)
   group by 1,2
 ),
@@ -13,7 +13,7 @@ populations as (
     year,
     county,
     sum(populations) as total_populations
-  from `lisa-project-383407.2025_profile.taiwan_population_2020_2024`
+  from `project_name.2025_profile.taiwan_population_2020_2024`
   where year in (2020, 2024)
   group by 1,2
 ),
