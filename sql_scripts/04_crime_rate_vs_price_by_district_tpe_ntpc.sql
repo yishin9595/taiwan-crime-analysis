@@ -3,7 +3,7 @@ with real_estate_midian as (
     county,
     district,
     approx_quantiles(unit_price, 2)[offset(1)] as median_unit_price
-  from `lisa-project-383407.2025_profile.taipei_newtaipei_real_estate_transactions_2020_202505`
+  from `project_name.2025_profile.taipei_newtaipei_real_estate_transactions_2020_202505`
   group by county,district
 ),
 
@@ -12,7 +12,7 @@ crime_record_total as (
     oc_county,
     oc_region,
     sum(total_cases) as total_crime_cases,
-  from `lisa-project-383407.2025_crime.crime_record_by_crime_rate_per_10k`
+  from `project_name.2025_crime.crime_record_by_crime_rate_per_10k`
   group by 1,2
 ),
 
@@ -21,7 +21,7 @@ populations_total as (
     county,
     district,
     sum(populations) as total_populations,
-  from `lisa-project-383407.2025_profile.taiwan_population_2020_2024`
+  from `project_name.2025_profile.taiwan_population_2020_2024`
   group by 1,2
 )
 
