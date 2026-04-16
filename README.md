@@ -5,7 +5,7 @@
 - **資料來源**：警政署犯罪資料、人口統計資料、新北臺北實價登錄
 - **工具使用情境**：
   - BigQuery：進行 SQL 資料查詢
-  - Google Sheets、Excel：製作圖表
+  - Google Sheets：製作圖表
   - Google Slides：製作簡報
 
 ---
@@ -38,8 +38,7 @@
 ---
 
 ### 分析結果
-- **Google Slide 簡報**：[完整分析簡報](https://docs.google.com/presentation/d/1G3O7ZntmjPxTPSVXK79H85h6Zx8aA6TuMZMt5MP1bj0/edit?slide=id.g370e269f5d5_1_1057#slide=id.g370e269f5d5_1_1057)
-- **Google Sheets 圖表**：[數據資料與圖表](https://docs.google.com/spreadsheets/d/1um-dsKPqy3yix9wQ0e7VcDM6f_0vciWpmA8zz6HE4Dw/edit?usp=drive_link)
+- **Google Slide 簡報**：[完整分析簡報](https://lihi1.me/2g235)
 
 ---
 
